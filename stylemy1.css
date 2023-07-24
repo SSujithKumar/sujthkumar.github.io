@@ -1,0 +1,87 @@
+:root{
+    --red:crimson;
+    --green:#53bf9d;
+    --black:black;
+    --white:white;
+    --grey:grey;
+    --brown:brown;
+}
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background-image:url('../image/Folding\ Motorcycle\ Trailers\ &\ Stand-Up\ Motorcycle\ Lifts\ by\ Kendon\ Ind_.jpeg');
+}
+.landing
+{
+    background-image:url('../image/milady.jpeg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color: var(--white);
+}
+header a{
+    text-decoration: none;
+    color: var(--black);
+}
+header{
+    display: flex;
+    padding: 1em;
+}
+#log0{
+    flex: 3;
+    font:size 1.25em;
+}
+nav {
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:var(--grey);
+}
+.maintext{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tagline1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+.tagline2{
+    color: var(--brown);
+}
+.maintext div{
+    margin-top: .75em;
+}
+.tagline3{
+    font-size: medium;
+    font-weight: bold;
+    color: lightslategrey;
+}
+.regfrom
+{
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0,0,0,.5);
+    color: aliceblue;
+    font-size:30px;
+}
+.regfrom h3{
+    text-align: center;
+    color: burlywood;
+}
+.regfrom label{
+    display: block;
+}
+.input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid gray;
+    box-shadow: 2px;
+    border-radius: 8px;
+}
